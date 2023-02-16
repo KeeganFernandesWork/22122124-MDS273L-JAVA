@@ -17,7 +17,7 @@ class lab3{
             		for(int j = i+1; j < arr.length; j++){
                 		if(arr[i] == arr[j]){
                     		count++;
-                    		//To avoid counting same element again
+                  		//To avoid counting same element again
                     		fr[j] = visited;
                 		}
             		}
@@ -63,7 +63,8 @@ class lab3{
 			return (float)sorted_array[a.length/2];
 		}
 		else{
-			return (sorted_array[a.length/2] + sorted_array[a.length/2 +1])/2;
+			return (float)(sorted_array[a.length/2] + sorted_array[a.length/2 +1])/2;
+			
 		}
 	}
 		
@@ -75,7 +76,7 @@ class lab3{
 		for(int i = 0; i< num;i++){
 			array[i] = Integer.parseInt(sc.next());
 		}
-		System.out.println("Enter the function that you want to preform \n1. MEAN\n2. MODE\n2. MEDIAN");
+		System.out.println("Enter the function that you want to preform \n1. MEAN\n2. MODE\n3. MEDIAN");
 		int key = sc.nextInt();
 		switch(key){
 			case 1:
