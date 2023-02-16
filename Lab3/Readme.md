@@ -16,7 +16,7 @@ From the user-given array.
 
 #### working
 
-
+![image](./lab3.drawio.png)
 
 #### output
 Enter the number of elements of the array
