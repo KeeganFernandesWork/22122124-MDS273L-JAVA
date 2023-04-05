@@ -62,11 +62,11 @@ class counter{
          count[bottom[i]] = -1;
 
        }
-         System.out.println("Top Words");
+         System.out.println("------Top Words------");
          for(int i=0;i<5;i++){
           System.out.println(i+ ": "+words[top[i]]+" : "+ top_count[i]);
          }
-         System.out.println("Bottom Words");
+         System.out.println("------Bottom Words------");
          for(int i=0;i<5;i++){
           System.out.println(i+ ": "+words[bottom[i]]+" : "+ bottom_count[i]);
          }
@@ -122,7 +122,7 @@ class counter{
          k++;
        }
        
-         System.out.println("Vowels and digits");
+         System.out.println("------Vowels and digits-----");
          for(int i=0;i<15;i++){
           System.out.println(vowels[i]+" : "+count[i]);
          }
@@ -189,11 +189,11 @@ class counter{
 
        }
        
-         System.out.println("Top Characters");
+         System.out.println("------Top Characters------");
          for(int i=0;i<5;i++){
           System.out.println(i+ ": "+words[top[i]]+" : "+top_count[i]);
          }
-         System.out.println("Bottom Characters");
+         System.out.println("------Bottom Characters------");
          for(int i=0;i<5;i++){
           System.out.println(i+ ": "+words[bottom[i]]+" : "+ bottom_count[i]);
          }
@@ -239,7 +239,7 @@ class counter{
          k++;
          
        } 
-       System.out.println("Top Categories");
+       System.out.println("------Top Categories------");
        for(int i=0;i<count;i++){
          System.out.println(words[i]);
        }
