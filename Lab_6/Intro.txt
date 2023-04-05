@@ -1,0 +1,1 @@
+Pass the file content to the functions and return the values accordingly 1234 48848
